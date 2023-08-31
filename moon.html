@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokemon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/bootstrap5.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body class="body_tou">
+  <div class="img text-center">
+    <img class="m-5" src="./image/pokemon_logo 1.svg" width="500px" alt="pokemon_logo">
+    <div class="sun_moon">
+        <a href="/">
+          <img src="./image/images.jpg" alt="jpg">
+        </a>
+        <a href="/">
+          <img src="./image/superlunie-660x330.jpeg" alt="jpeg">
+        </a>
+      </div>
+  </div>
+  <form class="text-center" data-form>
+    <select data-select class="box-inputs" name="A-Z">
+      <option>A-Z</option>
+      <option>Z-A</option>
+      <option>Weight up</option>
+      <option>Height up</option>
+    </select>
+    <select class="box-inputs" name="Gross" data-select-tou>
+      <option>Height</option>
+      <option>Weight</option>
+    </select>
+    <input class="box-inputs-tou" type="text" placeholder="Search" data-search>
+    <label for="img"></label>
+    <input class="box-inputs-tou" id="img" data-img-url type="text" placeholder="Img url">
+    <label for="name"></label>
+    <input class="box-inputs-tou" id="name" data-title type="text" placeholder="Name">
+    <label for="type"></label>
+    <input class="box-inputs-tou" id="type" data-type type="text" placeholder="Type">
+    <label for="weight"></label>
+    <input class="box-inputs-tou" id="weight" data-weight type="text" placeholder="Weight">
+    <label for="height"></label><input class="box-inputs" id="height" data-height type="text" placeholder="Height">
+    <button class="box-btn" type="submit">Add+</button>
+  </form>
+  <div class="container" data-box></div>
+  <template data-template>
+    <li class="fool_box-tou">
+      <img class="sniper" src="">
+      <h4 class="jakiro"></h4>
+      <h6 class="title_five"></h6>
+      <span class="height"></span><span class="weight"></span>
+      <button class="btn-danger">Delete</button>
+    </li>
+  </template>
+  <script src="./js/pokemon (2).js"></script>
+  <script src="./js/app.js"></script>
+  <script src="./js/search.js"></script>
+  <script src="./js/contact.js"></script>
+</body>
+</html>

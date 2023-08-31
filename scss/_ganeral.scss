@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    @media (max-width: 684px) {
+        justify-content: center;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#FFD845;
+}
+
+.body_tou {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.sun_moon {
+    gap: 10px;
+    // margin-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 60px;
+    display: flex;
+    // justify-content: flex-end;
+    a {
+        img {
+            width: 70px;
+            height: 40px;
+        }
+    }
+}
+
+.box-inputs {
+    border-radius: 10px;
+    width: 170px;
+    height: 35px;
+    border: 1px solid black;
+    padding-left: 20px;
+}
+
+.box-inputs-tou {
+    border-radius: 10px;
+    width: 170px;
+    height: 35px;
+    border: 1px solid black;
+    padding-left: 20px;
+}
+
+.fool_box {
+    cursor: pointer;
+    width: 260px;
+    height: 280px;
+    list-style-type: none;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    .btn-danger {
+        display: flex;
+    }
+}
+
+.fool_box-tou {
+    cursor: pointer;
+    width: 260px;
+    height: 280px;
+    list-style-type: none;
+    background: #808080;
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
+    .btn-danger {
+        display: flex;
+    }
+}
+
+form {
+    margin-bottom: 100px;
+}
+
+.box-btn {
+    border: 1px solid black;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    @media (max-width: 1343px) {
+        margin-top: 5px;
+    }
+}
+
+.m-5 {
+    @media (max-width: 684px) {
+        width: 350px;
+    }
+}
+
+.height {
+    font-weight: 700;
+    margin-right: 20px;
+    padding-left: 70px;
+}
+
+.weight {
+    font-weight: 700;
+}
+
+.sniper {
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 150px;
+}
+
+.fool_box:active {
+    background-color: #FFD845;
+    transition: 0.25s ease;
+    transform: scale(0.9);
+}
+
+.fool_box-tou:active {
+    background-color: #FFFFFF;
+    transition: 0.25s ease;
+    transform: scale(0.9);
+    border: 5px solid #808080;
+}
+
+.jakiro {
+    padding-top: 15px;
+    text-align: center;
+    border-top: 2px solid black;
+}
+
+.title_five {
+    text-align: center;
+}
